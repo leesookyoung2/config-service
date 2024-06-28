@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: config-service
-          image: config-service
+          image: ghcr.io/leesookyoung2/config-service:latest
           imagePullPolicy: IfNotPresent
           lifecycle:
             preStop:
